@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine&family=Lumanosimo&family=Roboto+Slab&display=swap");
+
+html,
+* {
+  font-family: "Domine", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Domine", serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: rgb(156, 78, 0);
+}
+.logo {
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+}
+/*h1 {
+  background-color: #55e155;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+*/
+article {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.brbr {
+  position: relative;
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.brbr .content {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+.brbr .content h1 {
+  margin: 0;
+  padding: 0;
+  color: brown;
+  font-size: 3em;
+  font-family: "Lumanosimo", cursive;
+}
+.brbr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #55e155;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+}
+.noty {
+  background-size: cover;
+
+  margin: 0 auto;
+  background-image: url("https://i0.wp.com/www.sir-apfelot.de/wp-content/uploads/2022/04/notenlesen-lernen.jpg");
+}
+h3 {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 30%;
+  margin-top: 0;
+}
+.brown {
+  color: rgb(156, 78, 0);
+}
+img {
+  margin-left: 3%;
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+@media (max-width: 1100px) {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    float: none;
+  }
+}
+h4 {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 40%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  padding-left: 100px;
+  font-size: 20px;
+  color: #00ae00;
+  text-shadow: 0 0 7px #515151;
+}
+@media (max-width: 1100px) {
+  h4 {
+    margin-left: 0%;
+    margin-right: 10%;
+  }
+}
+@media (max-width: 600px) {
+  h4 {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+h2 {
+  font-size: 25px;
+  margin: 20px;
+  margin-top: 0;
+  text-align: center;
+  text-decoration: underline 1.5px;
+  background-color: #55e155;
+  color: brown;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+.paus {
+  content: "A" !important;
+  display: block !important;
+  margin-bottom: 20% !important;
+}
+.mini {
+  content: "A" !important;
+  display: block !important;
+  margin-bottom: 5% !important;
+}
+.under {
+  color: #00ae00;
+}
