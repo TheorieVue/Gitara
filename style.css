@@ -15,6 +15,18 @@ body {
   box-sizing: border-box;
   background-color: rgb(156, 78, 0);
 }
+.zdj4 {
+  background-size: cover;
+  padding: 0;
+  border-radius: 10%;
+  background-image: url(https://ds.static.rtbf.be/article/image/1920x1080/9/a/9/8ba8a50151ef7242167ad810e5bc4b21-1631794321.jpg);
+}
+.zdj5 {
+  background-size: cover;
+  padding: 0;
+  border-radius: 10%;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190828/pngtree-contact-geometric-molecular-shape-yellow-icon-image_308932.jpg);
+}
 .logo {
   display: block;
   float: left;
@@ -70,9 +82,16 @@ article {
 }
 .noty {
   background-size: cover;
-
   margin: 0 auto;
+  padding: 0;
   background-image: url("https://i0.wp.com/www.sir-apfelot.de/wp-content/uploads/2022/04/notenlesen-lernen.jpg");
+}
+.innenoty {
+  font-size: 30px;
+  color: #55e155;
+  background-size: cover;
+  margin: 0 auto;
+  background-image: url(https://e0.pxfuel.com/wallpapers/824/830/desktop-wallpaper-country-music-background-for-music-website-country-guitar.jpg);
 }
 h3 {
   text-align: center;
@@ -80,6 +99,7 @@ h3 {
   margin: 20px 30%;
   margin-top: 0;
 }
+
 .brown {
   color: rgb(156, 78, 0);
 }
@@ -123,25 +143,68 @@ h4 {
 }
 h2 {
   font-size: 25px;
-  margin: 20px;
+
   margin-top: 0;
   text-align: center;
   text-decoration: underline 1.5px;
   background-color: #55e155;
   color: brown;
   padding: 20px 0;
-  margin-bottom: 10px;
 }
 .paus {
   content: "A" !important;
   display: block !important;
-  margin-bottom: 20% !important;
+  margin-bottom: 15% !important;
 }
 .mini {
   content: "A" !important;
   display: block !important;
   margin-bottom: 5% !important;
 }
+.icon {
+  color: 58609d;
+  font-size: 50px;
+}
 .under {
   color: #00ae00;
+}
+nav {
+  overflow: hidden;
+}
+nav a {
+  display: block;
+  width: 10%;
+  height: 100px;
+  float: left;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: darkcyan;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 10px;
+  max-width: 1300px;
+  margin: 20px auto;
+  transition: all 0.25s ease;
+}
+hr {
+  padding: 0;
+  border: 0.25rem solid #55e155;
+  margin: 0;
+}
+.nav2 a {
+  margin: 20px 5%;
+  width: 40%;
+  background-color: #7cfc00;
+}
+.nav2 a:hover {
+  border-radius: 5px;
+  background-color: #fc8b00;
+}
+nav {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+footer {
+  margin-bottom: 100px;
 }
