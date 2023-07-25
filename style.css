@@ -18,14 +18,23 @@ body {
 .zdj4 {
   background-size: cover;
   padding: 0;
-  border-radius: 10%;
+  border-radius: 15%;
   background-image: url(https://ds.static.rtbf.be/article/image/1920x1080/9/a/9/8ba8a50151ef7242167ad810e5bc4b21-1631794321.jpg);
 }
 .zdj5 {
   background-size: cover;
   padding: 0;
-  border-radius: 10%;
+  border-radius: 15%;
   background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190828/pngtree-contact-geometric-molecular-shape-yellow-icon-image_308932.jpg);
+}
+.program {
+  background-size: cover;
+  padding: 0;
+  border-radius: 15%;
+  background-color: #55e155;
+}
+.imgbig {
+  width: 100%;
 }
 .logo {
   display: block;
@@ -34,6 +43,10 @@ body {
   top: 0;
   left: 0;
   width: 200px;
+}
+
+.big {
+  line-height: 1.8;
 }
 /*h1 {
   background-color: #55e155;
@@ -86,6 +99,9 @@ article {
   padding: 0;
   background-image: url("https://i0.wp.com/www.sir-apfelot.de/wp-content/uploads/2022/04/notenlesen-lernen.jpg");
 }
+img {
+  padding: 0;
+}
 .innenoty {
   font-size: 30px;
   color: #55e155;
@@ -103,10 +119,10 @@ h3 {
 .brown {
   color: rgb(156, 78, 0);
 }
-img {
-  margin-left: 3%;
+.obok {
+  margin-left: 15%;
   float: left;
-  width: 30%;
+  width: 20%;
   padding: 10px;
 }
 @media (max-width: 1100px) {
@@ -120,12 +136,12 @@ img {
 }
 h4 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 80px;
   margin-left: 40%;
   margin-right: 10%;
   margin-bottom: 10px;
   padding-left: 100px;
-  font-size: 20px;
+  font-size: 25px;
   color: #00ae00;
   text-shadow: 0 0 7px #515151;
 }
@@ -192,12 +208,12 @@ hr {
   border: 0.25rem solid #55e155;
   margin: 0;
 }
-.nav2 a {
+.nav3 a {
   margin: 20px 5%;
-  width: 40%;
+  width: 23.3%;
   background-color: #7cfc00;
 }
-.nav2 a:hover {
+.nav3 a:hover {
   border-radius: 5px;
   background-color: #fc8b00;
 }
