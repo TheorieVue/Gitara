@@ -240,6 +240,12 @@ hr {
   width: 23.3%;
   background-color: #7cfc00;
 }
+@media (max-width: 1100px) {
+  .nav3 a {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
 .nav3 a:hover {
   border-radius: 5px;
   background-color: #fc8b00;
